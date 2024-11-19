@@ -1,0 +1,104 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Teal",
+  "version": 2,
+  "settings": {
+    "color": {
+      "custom": true,
+      "customGradient": true,
+      "customDuotone": true,
+      "link": true,
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#02A382",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#025283",
+          "name": "Secondary"
+        },
+        {
+          "slug": "light-shade",
+          "color": "#EDFFFC",
+          "name": "Light Shade"
+        },
+        {
+          "slug": "dark-shade",
+          "color": "#016350",
+          "name": "Dark Shade"
+        },
+        {
+          "slug": "light-color",
+          "color": "#FFFFFF",
+          "name": "Light Color"
+        },
+        {
+          "slug": "dark-color",
+          "color": "#000000",
+          "name": "Dark Color"
+        },
+        {
+          "slug": "heading-color",
+          "color": "#2F2F2F",
+          "name": "Heading Color"
+        },
+        {
+          "slug": "background-alt",
+          "color": "#0D0C0A",
+          "name": "Background Alt"
+        },
+        {
+          "slug": "foreground",
+          "color": "#6A6A6A",
+          "name": "foreground"
+        },
+        {
+          "slug": "meta-color",
+          "color": "#B8B4AD",
+          "name": "Meta Color"
+        },
+        {
+          "slug": "border-color",
+          "color": "#C9EBE5",
+          "name": "Border Color"
+        },
+        {
+          "slug": "border-light-color",
+          "color": "#E5F9F5",
+          "name": "Border Light Color"
+        },
+        {
+          "color": "#ffffff00",
+          "name": "Transparent",
+          "slug": "transparent"
+        }
+      ],
+      "duotone": [
+        {
+          "colors": ["#F4F7FF", "#3E24DE"],
+          "slug": "primary-duo",
+          "name": "Primary Duo"
+        },
+        {
+          "colors": ["#3E24DE", "#ffffff"],
+          "slug": "white-primary",
+          "name": "White Primary"
+        }
+      ],
+      "gradients": [
+        {
+          "gradient": "linear-gradient(219.88deg,rgb(216,238,234) 0%,rgba(255,225,192,0) 77%)",
+          "name": "Primary Gradient",
+          "slug": "primary-gradient"
+        },
+        {
+          "gradient": "linear-gradient(-314deg,rgb(216,238,234) 0%,rgba(255,225,192,0) 77%)",
+          "name": "Gradient Alternate",
+          "slug": "gradient-alternate"
+        }
+      ]
+    }
+  }
+}
